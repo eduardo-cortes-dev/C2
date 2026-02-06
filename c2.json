@@ -11,11 +11,16 @@
                     "args": {
                         "input": "msg * \"Hola, estoy en tu maquina :)\""
                     }
+                },
+
+                {
+                    "type": "shell",
+                    "args": {
+                        "input": "start \"\" \"https://www.youtube.com/watch?v=Aq5WXmQQooo&list=RDAq5WXmQQooo&start_radio=1\""
+                    }
                 }
             ]
             
         }
     ]
 }
-
-
