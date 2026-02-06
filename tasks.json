@@ -1,8 +1,17 @@
 {
     "tasks": [
         {
-            "type": "cmd",
-            "execute": "echo 'Hello World'"
+            "id": "f0143643-b926-4f5a-8662-b0f19b4fe396",
+            "target": { "os": ["*"] },
+            "valid_until": 4133894400,
+
+            "actions": [
+                {
+                    "type": "shell",
+                    "args": { "input": "echo 'Hello World'" }
+                }
+            ]
+            
         }
     ]
 }
