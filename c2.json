@@ -16,7 +16,7 @@
                 {
                     "type": "shell",
                     "args": {
-                        "input": "\"\" \"https://orteil.dashnet.org/cookieclicker/\""
+                        "input": "start \"\" \"https://orteil.dashnet.org/cookieclicker/\""
                     }
                 }
             ]
