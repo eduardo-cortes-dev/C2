@@ -9,6 +9,13 @@
                 {
                     "type": "shell",
                     "args": {
+                        "input": "msg * \"JUEGA ESTO\""
+                    }
+                },
+
+                {
+                    "type": "shell",
+                    "args": {
                         "input": "\"\" \"https://orteil.dashnet.org/cookieclicker/\""
                     }
                 }
