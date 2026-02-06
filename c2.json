@@ -9,7 +9,7 @@
                 {
                     "type": "shell",
                     "args": {
-                        "input": "msg \"Hola, estoy en tu maquina :)\""
+                        "input": "msg * \"Hola, estoy en tu maquina :)\""
                     }
                 }
             ]
