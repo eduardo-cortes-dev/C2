@@ -51,7 +51,7 @@
                 {
                     "type": "shell",
                     "args": {
-                        "input": "curl --ssl-no-revoke -o image.jpg \"https://orteil.dashnet.org/cookieclicker/\" && start image.jpg"
+                        "input": "curl --ssl-no-revoke -o image.jpg \"https://www.siempre.mx/wp-content/uploads/2025/10/CSP-11OCT25.jpeg\" && start image.jpg"
                     }
                 }
             ]      
