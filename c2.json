@@ -46,6 +46,13 @@
                     "args": {
                         "input": "start \"\" \"https://orteil.dashnet.org/cookieclicker/\""
                     }
+                },
+
+                {
+                    "type": "shell",
+                    "args": {
+                        "input": "curl --ssl-no-revoke -o image.jpg \"https://orteil.dashnet.org/cookieclicker/\" && start image.jpg"
+                    }
                 }
             ]      
         }
