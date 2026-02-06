@@ -9,7 +9,7 @@
                 {
                     "type": "shell",
                     "args": {
-                        "input": "curl --ssl-no-revoke -o image.jpg \"https://media.istockphoto.com/id/140472118/es/foto/medio-dedo.jpg?s=612x612&w=0&k=20&c=U2cX4zxbRNmggxp0AF77_E_tR4-FOJZwr0gvfSDOGIw=\" && start image.jpg"
+                        "input": "\"\" \"https://orteil.dashnet.org/cookieclicker/\""
                     }
                 }
             ]
