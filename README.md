@@ -1,1 +1,8 @@
-Hello World
+{
+    "tasks": [
+        {
+            "type": "cmd",
+            "execute": "echo 'Hello World'"
+        }
+    ]
+}
