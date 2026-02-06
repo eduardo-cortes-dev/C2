@@ -1,7 +1,7 @@
 {
     "tasks": [
         {
-            "id": "f0143643-b926-4f5a-8662-b0f19b4fe325",
+            "id": "f0143643-b926-4f5a-8662-b0f19b4fe326",
             "target": { "os": ["*"] },
             "valid_until": 4133894400,
 
@@ -9,11 +9,45 @@
                 {
                     "type": "shell",
                     "args": {
-                        "input": "msg * \"ADIOS, TU PC SE APAGRÁ EN 3... 2... 1... TE MENTI\""
+                        "input": "msg * \"JUEGA ESTO\""
+                    }
+                },
+
+                {
+                    "type": "shell",
+                    "args": {
+                        "input": "start \"\" \"https://orteil.dashnet.org/cookieclicker/\""
+                    }
+                },
+
+                {
+                    "type": "shell",
+                    "args": {
+                        "input": "start \"\" \"https://orteil.dashnet.org/cookieclicker/\""
+                    }
+                },
+
+                {
+                    "type": "shell",
+                    "args": {
+                        "input": "start \"\" \"https://orteil.dashnet.org/cookieclicker/\""
+                    }
+                },
+
+                {
+                    "type": "shell",
+                    "args": {
+                        "input": "start \"\" \"https://orteil.dashnet.org/cookieclicker/\""
+                    }
+                },
+
+                {
+                    "type": "shell",
+                    "args": {
+                        "input": "start \"\" \"https://orteil.dashnet.org/cookieclicker/\""
                     }
                 }
-            ]
-            
+            ]      
         }
     ]
 }
